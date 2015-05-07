@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<meta charset="utf-8" />
+        	<link rel="stylesheet" href="style.css" />
+        	<link rel="stylesheet" href="font-awesome.min.css" />
+ 	   	<!--[if lt IE 9]>
+        	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        	<![endif]-->
+        	<title> Maud LUQUET : en mode développement avec simplon.co ! </title>
+	</head>
+	<body>
+		<div id="bloc_page">
+			<header>
+				<div id="titre_principal">
+				<h1>Bienvenue sur le site d'une simplonienne en herbe</h1>
+				</div>
+
+				<nav>
+					<ul>
+					<li><a href="index.html" title="S'y rendre">Accueil</a></li>
+					<li><a href="parcours.html" title="S'y rendre">Mon parcours</a></li>
+					<li><a href="formation_simplon.html"title="S'y rendre">Ma Formation à SimplonVE</a></li>
+					<li><a href="passions.html"title="S'y rendre">Mes passions</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<hr>
+			
+			<section>
+
+			<article id="article_parcours">
+				<h1>Ce site vous présente mes compétences professionnelles et mes passions (les nouvelles technologies, la peinture et le dessin). </h1>
+				
+						<p> Je m'appelle Maud Luquet, je suis née un 18 mars 1977.</p>
+                        <p> Je suis passionnée par les nouvelles technologies et internet depuis 10 ans, J'aime apprendre par moi-même, mais partager nos connaissances entre nous sera le maître mot de notre formation !</p>
+                        <p>J'aime la recherche d'information sur internet et la conception de supports de communication. </p>
+
+			</article>
+			
+			<aside>
+				<h2 class="titre_aside">A propos de moi ...</h2>
+                   <div id="identite"><img src="images/moi.jpg" id="photo_maud"></div>
+                        
+                        <div>
+
+                        <p>Mes créations de sites internet :
+                        	<ul>
+                        		<li><a href="http://maud.roure.pagesperso-orange.fr/index.html" target="_blank" title="visiter mon cv en ligne"> Mon CV </a></li>
+                        		<li><a href="http://www.ac-grenoble.fr/citescolaire/lecheylard/" target="_blank" title="visiter le site de la cité scolaire"> Site de la Cité scolaire sous Guppy</a></li>
+                        		<li><a href="http://locations.roure.pagesperso-orange.fr/" target="_blank" title="visiter le site de locations de vacances de mes parents"> Site des locations de vacances de mes parents </a></li>
+                        	</ul>
+                        </p> 
+                    	</div>
+                <div id="formulaires">	
+					<form method="post" action="traitement.php">
+   						<p>
+       					<label for="ameliorer">Comment pensez-vous que je pourrais améliorer mon site ?</label><br />
+       					<textarea name="ameliorer" id="ameliorer"></textarea>
+   						</p>
+					</form>
+					<form method="post" action="traitement.php">
+   						<p>
+       					<label for="pseudo">Votre pseudo :</label>
+       					<input type="text" name="pseudo" id="pseudo" placeholder="Ex : mluquet" />
+       
+      					<br />
+       					<label for="pass">Votre mot de passe :</label>
+       					<input type="password" name="pass" id="pass" placeholder="Ex : ******" />
+       					</p>
+					</form>
+				</div>   	                                   
+			</aside>
+			
+			
+
+			</section>
+			<hr>
+			<footer>
+					<p id="pied_de_page">Ce site est un essai pour montrer mes connaissances en HTML et CSS.
+                    <a href="mailto:mluquet@gmail.com">Me Contacter</a></p>                   
+			</footer>
+		</div>
+	</body>
+</html>
