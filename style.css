@@ -1,0 +1,242 @@
+@font-face{
+    font-family: 'ArchitectsDaughter';
+    src: url('fonts/ArchitectsDaughter.eot');
+    src: url('fonts/ArchitectsDaughter.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ArchitectsDaughter.woff') format('woff'),
+         url('fonts/ArchitectsDaughterk.ttf') format('truetype'),
+         url('fonts/ArchitectsDaughter.svg#ArchitectsDaughter') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'DancingScript-Regular';
+    src: url('fonts/DancingScript-Regular.eot');
+    src: url('fonts/DancingScript-Regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DancingScript-Regular.woff') format('woff'),
+         url('fonts/DancingScript-Regular.ttf') format('truetype'),
+         url('fonts/DancingScript-Regular.svg#DancingScript-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+	background-color: white;
+  display: block;
+  margin: 0px;
+}
+
+header h1 {
+	text-align: center;
+	color:#BC4427;
+	font-family: 'ArchitectsDaughter', Arial;
+}
+
+nav a {
+  font-size: 0.8em;
+  font-family: 'DancingScript-Regulars', Arial;
+  color: green;  
+  text-decoration: none;
+      
+}
+
+nav li{
+	list-style: none;
+	display: inline-block; ;
+	width: 18%;
+	background-color: white;
+	padding: 5px 5px;
+	border: 1px red;
+  border-radius: 8px;
+  margin: 1px 1px;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: #00DAE9;    
+}
+
+nav a:visited {
+  text-decoration: none;
+  color: green;    
+}
+
+nav{
+  width:100%;
+  height:30px;
+  text-align:center;
+  vertical-align:center;
+  border-radius: 5px;
+}
+
+.titre_principal {
+  width: 100%
+}
+
+.titre_aside {
+  color: black;
+	text-align: center;
+	font-family: 'ArchitectsDaughter', Arial;
+	font-size: 1em;
+	text-shadow: 2px 2px 6px white;	  
+}
+#bloc_page {
+  background:url("images/fond_herb.jpg") no-repeat;
+  background-size: contain;
+  margin-bottom: 0px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  border: 2px Solid black;
+}
+
+article, aside {
+  display: inline-block;
+  vertical-align: top;  
+  border-radius: 5px; 
+}
+
+article {
+  width: 78%;
+  height: 100%;
+  border:2px solid black; 
+  font-family:'ArchitectsDaughter';
+  padding-left: 1%;
+  background-color: black;
+  color: green;
+  margin-left: 1%;
+}
+
+article h1{
+  color: #BC4427;
+  font-size: 15px;
+}
+article h2{
+  color: #BC4427;
+  font-size: 12px;
+}
+#identite{
+  text-align: center;
+}
+
+#lyon3{
+  float: right;
+  border-radius: 5px;
+}
+
+#img_article{
+	text-align: center;
+}
+
+#img_article img{
+	width: 50%;
+	height :50%;
+}
+#mer_retouch{
+	margin: 200px;
+	border-radius: 5px;
+}
+
+.images_simplon img{
+  background-color:#BC4427;
+  margin : 1%;
+  opacity: 0.8;
+  width: 20%;
+  height:20%;
+  transition:all 0.5s;
+  border-radius: 5px;
+  border: 5px solid white;
+}
+
+.images_simplon img:hover{
+  transform:scale(1.2);
+}
+
+.images_passions img{
+  width: 40%;
+  height:40%;
+  margin : 1%;
+  opacity: 0.8;
+  width: 30%;
+  height:30%;
+  transition:all 0.5s;
+  border-radius: 5px;
+  border: 5px solid white;
+}
+
+.images_passions img:hover{
+  transform:scale(1.2);
+}
+
+aside{
+  background-color:#BAD533;
+  width: 18%;
+  margin-right: 1%;
+}
+
+#photo_maud{
+  vertical-align: center;
+}  
+
+#logo-ve{
+  text-align: center;
+}
+
+#logo_simplonve{
+  width:70%;
+  height:70%;
+  border-radius: 5px;
+}
+
+
+aside p {
+	font-family: 'DancingScript-Regulars'; 
+	font-size: 15px;
+	color: white;
+	text-shadow: 2px 2px 6px #B348BA;
+	overflow: auto;
+	word-wrap: break-word;
+	margin-right: auto;
+	padding: 5px;
+} 
+
+aside ul {
+  font-family: 'DancingScript-Regulars'; 
+	font-size: 15px;
+	color: white;
+	text-shadow: 2px 5px 6px #B348BA;
+	overflow: auto;
+	word-wrap: break-word;
+	margin-right: auto;
+	padding-left: 18px 18px 0px 18px;
+}	
+
+aside a {
+  text-decoration: none;
+} 
+
+aside a :hover {
+	text-decoration: underline;
+	color: yellow;
+}
+
+aside h2{
+  font-family:ArchitectsDaughter;
+  text-align: center;
+  font-size: 15px;
+}
+
+#formulaires{
+  float:right;
+  background-color: #BC4427;
+  border-radius: 5px;
+  width: 70%;
+  padding-right: 1%;
+  margin-left: 20%;
+  margin-right: 15%;
+}
+
+footer{
+    font-family: 'ArchitectsDaughter';
+}
